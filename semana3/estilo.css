@@ -1,0 +1,122 @@
+@import url("https://fonts.googlesapis.com/css2?family=anton&display=swap");
+html,body{
+    margin: 0;
+    padding: 0;
+}  
+#imagem-fundo{
+    background: url("imagem/fundo.jpg");
+    height: 800px; 
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    color:#914b00 ;
+    padding-top: 20%; 
+    font-size: 70px;
+    line-height: 0.7; 
+}
+#subtitulo{
+    text-align: center;
+    color: o;
+    margin-left: 20%;
+    margin-right: 20%; 
+    border-top:4px solid  #914b00;
+    text-shadow:1px 1px black ;
+    font-family:"anton",sans-serif ;
+}
+#acao{
+    color:#914b00 ;
+    border: 1px black solid;
+    padding: 10px 20px  10px  20px;
+}
+#cuidados{
+    padding: 20px;
+    width: 90%;
+}
+.icone{
+    width: 300px;
+    
+}
+section{
+    padding: 25px;
+    float: left;
+}
+
+#projeto{
+    background-color:#5613e0;
+    padding:20px ;
+}
+h5{
+    width: 90%;
+}
+.coluna{
+    float:left ;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.colunadois{
+    width: 40%;
+    display: flex;
+}
+header{
+    background-color: #169120 ;
+    color:royalblue;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+       z-index: 10;
+}
+#logo {
+    width: 140px;
+    position: absolute;
+    top: 2x;
+    margin-left: 6%;
+    margin-left:0 px ;
+    transform: translate(-50%);
+}
+#menu {
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 10px 5px 10px 5px;
+}
+li:hover {
+    background-color: rosybrown;
+}
+footer {
+    background-color:#169120;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: black;
+}
+@media all and(max-width:768px) {
+    #menu{
+       visibility: hidden;
+    }
+    .coluna, .dois{
+         display: block;
+         width: 80%;
+         padding:0 ;
+         margin: 10px auto; 
+         float:none ;
+    } 
+}
+#logodiv{
+    width: 100px;
+    position: relative;
+    text-align: center;
+    padding: 0px;  
+}
